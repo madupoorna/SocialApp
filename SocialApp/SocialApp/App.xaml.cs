@@ -11,7 +11,7 @@ namespace SocialApp
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new PostListPage());
         }
 
         protected override void OnStart()

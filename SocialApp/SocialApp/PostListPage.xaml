@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SocialApp"
+             x:Class="SocialApp.PostListPage">
+
+    <AbsoluteLayout Margin="5">
+        <ListView x:Name="PostsListView" RowHeight="50">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <StackLayout>
+                                <Label LineBreakMode="TailTruncation"
+                                       Text="{Binding title}"
+                                       Font="Bold,12" />
+
+                                <Label Text="{Binding body}"
+                                       HeightRequest="23"
+                                       Font="Bold,9"/>
+                            </StackLayout>
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <ActivityIndicator x:Name="ActivityIndicator" 
+                           IsRunning="True"
+                           AbsoluteLayout.LayoutBounds="0.5,0.5,100,100"   
+                           AbsoluteLayout.LayoutFlags="XProportional,YProportional" />
+    </AbsoluteLayout>
+
+</ContentPage>

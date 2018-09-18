@@ -15,8 +15,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\SocialApp.Data\SocialApp.Data.csproj" />
-    <ProjectReference Include="..\..\SocialApp.Net\SocialApp.Net.csproj" />
+    <ProjectReference Include="..\SocialApp.Data\SocialApp.Data.csproj" />
+    <ProjectReference Include="..\SocialApp.Net\SocialApp.Net.csproj" />
   </ItemGroup>
 
   <ItemGroup>

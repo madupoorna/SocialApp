@@ -18,7 +18,7 @@
                                 <Label LineBreakMode="TailTruncation"
                                        HeightRequest="23"
                                        Text="{Binding body}"
-                                       Font="Bold,9"/>
+                                       FontSize="9"/>
 
                             </StackLayout>
                         </ViewCell.View>

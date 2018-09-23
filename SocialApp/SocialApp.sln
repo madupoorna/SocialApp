@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialApp.Android", "SocialApp\SocialApp.Android\SocialApp.Android.csproj", "{23A7EF1E-82D7-485F-9163-02C5365ED275}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialApp.Android", "SocialApp.Android\SocialApp.Android.csproj", "{23A7EF1E-82D7-485F-9163-02C5365ED275}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialApp.iOS", "SocialApp\SocialApp.iOS\SocialApp.iOS.csproj", "{E8D5F720-2C17-448F-AD42-84997F222869}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialApp.iOS", "SocialApp.iOS\SocialApp.iOS.csproj", "{E8D5F720-2C17-448F-AD42-84997F222869}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialApp", "SocialApp\SocialApp\SocialApp.csproj", "{EBEED12A-1561-4117-8EFA-2E0623F735B6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialApp", "SocialApp\SocialApp.csproj", "{EBEED12A-1561-4117-8EFA-2E0623F735B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialApp.Data", "SocialApp\SocialApp.Data\SocialApp.Data.csproj", "{08487BFB-5F5C-41BD-B11B-B98F25ED7996}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialApp.Data", "SocialApp.Data\SocialApp.Data.csproj", "{08487BFB-5F5C-41BD-B11B-B98F25ED7996}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialApp.Net", "SocialApp\SocialApp.Net\SocialApp.Net.csproj", "{06D2DCB5-8616-4847-9247-FCA75725CD00}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialApp.Net", "SocialApp.Net\SocialApp.Net.csproj", "{06D2DCB5-8616-4847-9247-FCA75725CD00}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
